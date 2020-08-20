@@ -1,2 +1,2 @@
 # OPEN PAGES
-<h1>Open Page is awesome.</h1>
+<h1>Open Pages is awesome.</h1>
