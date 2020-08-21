@@ -5,10 +5,13 @@
 
 /*  COLOR DEFINITIONS */
 .bg-red {
-  background-color: rgb(224, 24, 24);
+  background-color: #e74c3c;
 }
 .bg-green {
-  background-color: rgb(64, 243, 64);
+  background-color: #2ecc71;
+}
+.bg-blue {
+  background-color: #3498db;
 }
 .bg-half-transparent {
   background-color: rgba(0, 0, 0, 0.603);
@@ -36,6 +39,7 @@
 .op {
   width: 180px;
   text-align: center;
+  padding-top: 40px;
 }
 .bottom {
   margin-top: 80%;
@@ -47,16 +51,29 @@
 }
 
 .half-screen-35 {
-  width: 35%;
+  width: 40%;
   height: 100vh;
   margin: 0;
-  padding-top: 40px;
   padding-left: 60px;
 }
+
+.half-screen-35-slash-right {
+  border-bottom: 100vh solid rgba(0, 0, 0, 0.603);
+  border-right: 100px solid transparent;
+}
+
+.half-screen-35-slash-left {
+  border-top: 100vh solid rgba(0, 0, 0, 0.603);
+  border-right: 100px solid transparent;
+}
 .half-screen-65 {
-  width: 65%;
+  width: 60%;
   height: 100vh;
   margin: 0;
+}
+.half-screen-65-slash {
+  border-top: 100vh solid rgba(0, 0, 0, 0.603);
+  border-left: 100px solid transparent;
 }
 
 /* NAVIGATION */
